@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://k4uan01.github.io/site_lized/sitemap.xml
