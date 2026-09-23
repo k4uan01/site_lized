@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://site-lized.vercel.app/sitemap.xml
+Sitemap: https://www.lized.com.br/sitemap.xml
