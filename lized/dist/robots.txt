@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://k4uan01.github.io/site_lized/sitemap.xml
+Sitemap: https://site-lized.vercel.app/sitemap.xml

@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/lized/dist/index.html" },
+    { "source": "/((?!lized/).*)", "destination": "/lized/dist/$1" }
+  ]
+}
