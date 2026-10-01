@@ -1,5 +1,5 @@
 // Set the real WhatsApp number, with country and area code, when supplied.
-const WHATSAPP_NUMBER = '554588084656';
+const WHATSAPP_NUMBER = '554599337045';
 const contactDialog = document.querySelector('#contact-dialog');
 function openDialog(dialog) { document.querySelectorAll('dialog[open]').forEach(d => d.close()); dialog.showModal(); }
 document.querySelectorAll('[data-contact]').forEach(button => button.addEventListener('click', () => openDialog(contactDialog)));

@@ -13,7 +13,7 @@ Abra `dist/index.html` no navegador, ou execute `node server.cjs` nesta pasta e 
 - `dist/app.js`: navegação, projetos, dúvidas e solicitação de orçamento.
 - `dist/assets/`: imagens fornecidas. A composição utiliza recortes visuais via CSS da referência para preservar a arte original.
 
-WhatsApp e telefone: +55 (45) 8808-4656. Instagram: [@lized_oficial](https://instagram.com/lized_oficial). As solicitações abrem uma mensagem para revisão e envio pelo visitante.
+WhatsApp: +55 (45) 9933-7045. E-mail: lizedsystem@gmail.com. Instagram: [@lized_oficial](https://instagram.com/lized_oficial). As solicitações abrem uma mensagem para revisão e envio pelo visitante.
 
 Projetos, depoimentos e indicadores reproduzem o conteúdo do mockup; as miniaturas abrem uma apresentação local, pois não foram fornecidos endereços dos projetos.
 
