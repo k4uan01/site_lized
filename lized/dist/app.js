@@ -15,16 +15,40 @@ if(WHATSAPP_NUMBER){document.querySelector('#contact-form button[type="submit"]'
 const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){document.querySelectorAll('.header nav a').forEach(link=>link.classList.toggle('active',link.getAttribute('href')==='#'+entry.target.id));}}),{rootMargin:'-15% 0px -55% 0px'});document.querySelectorAll('main section[id]').forEach(section=>observer.observe(section));
 
 const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const motionItems=[...document.querySelectorAll('.reveal, .reveal-media')];
 if(!reduceMotion){
-  const reveals=document.querySelectorAll('.reveal');
+  const pending=new Set();
+  let queued=false;
+  const flush=()=>{
+    queued=false;
+    const groups=new Map();
+    pending.forEach(el=>{
+      const group=el.closest('[data-stagger]');
+      if(!group){el.classList.add('is-visible');return;}
+      const list=groups.get(group)||[];
+      list.push(el);
+      groups.set(group,list);
+    });
+    pending.clear();
+    groups.forEach(list=>{
+      list.sort((a,b)=>a===b?0:(a.compareDocumentPosition(b)&Node.DOCUMENT_POSITION_FOLLOWING?-1:1));
+      list.forEach((el,index)=>{
+        const delay=Math.min(index,10)*60;
+        el.style.transitionDelay=`${delay}ms`;
+        el.style.setProperty('--reveal-delay',`${delay}ms`);
+        el.classList.add('is-visible');
+      });
+    });
+  };
   const revealObserver=new IntersectionObserver(entries=>{
     entries.forEach(entry=>{
       if(!entry.isIntersecting) return;
-      entry.target.classList.add('is-visible');
+      pending.add(entry.target);
       revealObserver.unobserve(entry.target);
+      if(!queued){queued=true;requestAnimationFrame(flush);}
     });
   },{threshold:.14,rootMargin:'0px 0px -6% 0px'});
-  reveals.forEach(el=>revealObserver.observe(el));
+  motionItems.forEach(el=>revealObserver.observe(el));
 }else{
-  document.querySelectorAll('.reveal').forEach(el=>el.classList.add('is-visible'));
+  motionItems.forEach(el=>el.classList.add('is-visible'));
 }
