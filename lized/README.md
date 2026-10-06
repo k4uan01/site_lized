@@ -15,7 +15,7 @@ Abra `dist/index.html` no navegador, ou execute `node server.cjs` nesta pasta e 
 
 WhatsApp: +55 (45) 9933-7045. E-mail: lizedsystem@gmail.com. Instagram: [@lized_oficial](https://instagram.com/lized_oficial). As solicitações abrem uma mensagem para revisão e envio pelo visitante.
 
-Projetos, depoimentos e indicadores reproduzem o conteúdo do mockup; as miniaturas abrem uma apresentação local, pois não foram fornecidos endereços dos projetos.
+As prévias dos projetos são imagens estáticas de 1536 × 1024, sem logos nos cards nem ação de clique. Os arquivos e prompts de edição estão documentados em `PROJECT-IMAGES.md`. Depoimentos e indicadores reproduzem o conteúdo do mockup.
 
 ## Hospedagem
 

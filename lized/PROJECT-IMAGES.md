@@ -1,0 +1,18 @@
+# Prévias dos projetos
+
+Criadas com a ferramenta integrada ImageGen a partir da referência fornecida, em 1536 × 1024. Arquivos finais em `dist/assets/project-nexora.png`, `dist/assets/project-belleza.png` e `dist/assets/project-movefit.png`.
+
+## Prompts usados
+
+### nexora
+
+Use case: precise-object-edit. Edit target: attached screenshot of three portfolio cards. Output ONLY the LEFT technology card, dark black and emerald futuristic website, realistic side-profile woman lit teal on right. Main exact headline on left: 'Soluções digitais para um futuro mais inteligente.' Lime accent last words. Extract and reconstruct this single website preview as a standalone high-resolution landscape 1536x1024 image. Remove the outer portfolio card header entirely: no brand logo, no project name label, no category label, no circular top-right arrow, no red annotation rectangles. Enlarge the actual website design to fill the entire output edge to edge, keeping the reference's subtle perspective tilt, original color palette, hero imagery and typography. Improve image detail and text sharpness substantially, clean professionally typeset headline with correct Portuguese, crisp photo details. No surrounding other cards, no border or blank header strip. Do not add any logo or brand wordmark anywhere. Preserve the underlying landing page design concept, including subtle small navigation text and CTA within the actual site.
+
+### belleza
+
+Use case: precise-object-edit. Edit target: attached screenshot of three portfolio cards. Output ONLY the CENTER beauty card, warm cream and beige premium beauty website, realistic brunette woman face on right. Main exact headline on left in elegant dark serif: 'Realce sua melhor versão'. Extract and reconstruct this single website preview as a standalone high-resolution landscape 1536x1024 image. Remove the outer portfolio card header entirely: no brand logo, no project name label, no category label, no circular top-right arrow, no red annotation rectangles. Enlarge the actual website design to fill the entire output edge to edge, keeping the reference's subtle perspective tilt, original color palette, hero imagery and typography. Improve image detail and text sharpness substantially, clean professionally typeset headline with correct Portuguese, crisp photo details. No surrounding other cards, no border or blank header strip. Do not add any logo or brand wordmark anywhere. Preserve the underlying landing page design concept, including subtle small navigation text and CTA within the actual site.
+
+### movefit
+
+Use case: precise-object-edit. Edit target: attached screenshot of three portfolio cards. Output ONLY the RIGHT fitness card, black premium fitness website, realistic muscular male athlete in sleeveless black sportswear on right. Main exact headline on left in white bold condensed capitals: 'DISCIPLINA GERA RESULTADOS'. Extract and reconstruct this single website preview as a standalone high-resolution landscape 1536x1024 image. Remove the outer portfolio card header entirely: no brand logo, no project name label, no category label, no circular top-right arrow, no red annotation rectangles. Enlarge the actual website design to fill the entire output edge to edge, keeping the reference's subtle perspective tilt, original color palette, hero imagery and typography. Improve image detail and text sharpness substantially, clean professionally typeset headline with correct Portuguese, crisp photo details. No surrounding other cards, no border or blank header strip. Do not add any logo or brand wordmark anywhere. Preserve the underlying landing page design concept, including subtle small navigation text and CTA within the actual site.
+
