@@ -50,6 +50,8 @@ const I18N = {
     'projects.alt1': 'Prévia de site de tecnologia em verde e preto, com o título Soluções digitais para um futuro mais inteligente.',
     'projects.alt2': 'Prévia de site de beleza em tons claros, com o título Realce sua melhor versão.',
     'projects.alt3': 'Prévia de site fitness em preto e verde, com o título Disciplina gera resultados.',
+    'clients.eyebrow': 'Nossos clientes',
+    'clients.title': 'Empresas que já deram o <em>próximo passo.</em>',
     'solutions.eyebrow': 'Por que escolher a Lized?',
     'solutions.title': 'Mais que sites, <em>soluções digitais.</em>',
     'solutions.intro': 'Desenvolvemos cada projeto com foco em estratégia, design e resultado, criando sites modernos, rápidos e pensados para transformar visitas em oportunidades reais para o seu negócio.',
@@ -203,6 +205,8 @@ const I18N = {
     'projects.alt1': 'Preview of a technology website in green and black, titled Digital solutions for a smarter future.',
     'projects.alt2': 'Preview of a beauty website in light tones, titled Bring out your best self.',
     'projects.alt3': 'Preview of a fitness website in black and green, titled Discipline creates results.',
+    'clients.eyebrow': 'Our clients',
+    'clients.title': 'Companies that already took the <em>next step.</em>',
     'solutions.eyebrow': 'Why choose Lized?',
     'solutions.title': 'More than websites, <em>digital solutions.</em>',
     'solutions.intro': 'We develop every project with strategy, design, and results in mind, creating modern, fast websites built to turn visits into real opportunities for your business.',
@@ -435,3 +439,4 @@ if(!reduceMotion){
 }else{
   motionItems.forEach(el=>el.classList.add('is-visible'));
 }
+

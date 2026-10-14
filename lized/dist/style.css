@@ -223,3 +223,31 @@ footer{padding-bottom:108px}
 @media(max-width:760px) and (prefers-reduced-motion:no-preference){
   .process-step.reveal:not(.is-visible):not(:last-child)::before{height:0;transition-delay:0s}
 }
+
+.clients{padding:64px 0 8px;overflow:hidden}
+.clients+.solutions{margin-top:12px}
+.clients-head{text-align:center;margin-bottom:28px}
+.clients-head .eyebrow{color:var(--lime);letter-spacing:2.8px}
+.clients-head h2{font-size:clamp(28px,3.2vw,42px);font-weight:650;letter-spacing:-1.3px}
+.clients-row{overflow:hidden;padding:6px 0 36px;mask-image:linear-gradient(to right,transparent,#000 7%,#000 93%,transparent);-webkit-mask-image:linear-gradient(to right,transparent,#000 7%,#000 93%,transparent)}
+.clients-track{display:flex;width:max-content;flex-wrap:nowrap;animation:strip-drift 36s linear infinite}
+.clients-set{display:flex;align-items:center;gap:64px;margin:0;padding:0 64px 0 0;list-style:none}
+.client-logo{display:flex;align-items:center;justify-content:center;flex-shrink:0;height:88px}
+.client-logo img{display:block;height:62px;width:auto;max-width:none;object-fit:contain;filter:brightness(0) saturate(100%) invert(84%) sepia(61%) saturate(463%) hue-rotate(27deg) brightness(103%) contrast(92%)}
+.client-logo--light{background:none;padding:0}
+.client-logo--light img{height:62px}
+@media(max-width:760px){
+  .clients{padding-top:42px}
+  .clients-head{margin-bottom:20px}
+  .clients-head h2{font-size:28px}
+  .clients-row{padding-bottom:28px}
+  .clients-track{animation-duration:24s}
+  .clients-set{gap:36px;padding-right:36px}
+  .client-logo,.client-logo--light{height:72px}
+  .client-logo img,.client-logo--light img{height:48px}
+}
+@media(prefers-reduced-motion:reduce){
+  .clients-row{overflow:hidden}
+  .clients-track{display:flex!important;width:max-content!important;max-width:none!important;flex-wrap:nowrap!important;justify-content:flex-start!important;animation:strip-drift 36s linear infinite!important}
+  .clients-set,.clients-set[aria-hidden="true"]{display:flex!important;flex-wrap:nowrap!important}
+}
