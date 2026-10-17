@@ -1,5 +1,5 @@
 // Set the real WhatsApp number, with country and area code, when supplied.
-const WHATSAPP_NUMBER = '554599337045';
+const WHATSAPP_NUMBER = '554588084656';
 const LANG_STORAGE = 'lized-lang';
 const I18N = {
   pt: {
