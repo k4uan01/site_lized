@@ -251,3 +251,4 @@ footer{padding-bottom:108px}
   .clients-track{display:flex!important;width:max-content!important;max-width:none!important;flex-wrap:nowrap!important;justify-content:flex-start!important;animation:strip-drift 36s linear infinite!important}
   .clients-set,.clients-set[aria-hidden="true"]{display:flex!important;flex-wrap:nowrap!important}
 }
+@media(min-width:761px){.project:nth-child(n+4){display:none}}
